@@ -9,7 +9,7 @@ class Test(unittest.TestCase):
     def setUp(self) -> None:
         # 加载停用词
         self.stop_words = set()
-        with open('stop_words.txt', 'r', encoding='utf-8') as f:
+        with open('../stop_words.txt', 'r', encoding='utf-8') as f:
             for line in f:
                 word = line.strip()
                 if not word:
