@@ -1,3 +1,5 @@
+
+
 class UndirectedWeightedGraph(object):
 
     def __init__(self, iter_num=15):
